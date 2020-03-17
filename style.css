@@ -1,0 +1,52 @@
+/*------------------------------------------------
+Main Selections
+------------------------------------------------*/
+body{
+	margin: 0;
+	background-color: #333333;
+}
+h1, h2, p {
+	margin: 0;
+}
+body p{
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2{
+	font-family: 'Cormorant Garamond', serif;
+	color: #FDA008;
+	font-weight: 300;
+}
+h1{
+	font-size: 8rem;
+}
+h2{
+	font-size: 3.5rem;
+}
+header {
+	margin-left: 15%;
+}
+/*------------------------------------------------
+Class+ID Selections - Bootstrap override
+------------------------------------------------*/
+.navbar{
+	background-color: #333333 !important;
+}
+.nav-item{
+	padding: 0 10px;
+}
+.nav-link{
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 300;
+	font-size: 0.8rem;
+	letter-spacing: 0.2rem;
+}
+/*------------------------------------------------
+Class+ID Selections
+------------------------------------------------*/
+.antsButton{
+	margin-top: 35px;
+	padding: 10px 20px;
+	display: inline-block;
+	border: 1px solid white;
+	border-radius: 5px;
+}
