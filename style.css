@@ -17,10 +17,10 @@ h1, h2{
 	font-weight: 300;
 }
 h1{
-	font-size: 8rem;
+	font-size: 14vw;
 }
 h2{
-	font-size: 3.5rem;
+	font-size: 6.5vw;
 }
 header {
 	margin-left: 15%;
@@ -80,8 +80,6 @@ Class+ID Selections
 	grid-gap: 2.5em;
 }
 .photo-item{
-	width: 200px;
-	height: 200px;
 	background-color: white;
 	overflow:hidden;
 }
@@ -90,7 +88,9 @@ Class+ID Selections
 	height: 100%;
 	object-fit: cover;
 }
-
+.photo-item:hover{
+	border: 2px solid #FDA008;
+}
 
 .social-media-icons{
 	text-align: center;
@@ -101,6 +101,47 @@ Class+ID Selections
 .social-media-icons li i:hover{
 	color: #FDA008;
 }
+/*------------------------------------------------
+Media Queries
+------------------------------------------------*/
+@media only screen and (max-width: 768px){
+
+	.photo-container{
+		margin: 2.5em;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(auto, 1fr);
+		grid-gap: 2.5em;
+	}
+
+}
+
+@media only screen and (max-width: 600px){
+
+	.photo-container{
+		margin: 2.5em;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(auto, 1fr);
+		grid-gap: 2.5em;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
